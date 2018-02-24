@@ -21,6 +21,7 @@
     self.title = @"YYKit Example";
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
+    [self addCell:@"KVO" class:@"YYKVOExample"];
     [self addCell:@"Model" class:@"YYModelExample"];
     [self addCell:@"Image" class:@"YYImageExample"];
     [self addCell:@"Text" class:@"YYTextExample"];
